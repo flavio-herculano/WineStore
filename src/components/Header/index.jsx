@@ -20,9 +20,9 @@ function Header() {
       </div>
       <div className={styles.secoondary_header}>
         <div>
-          <p>Vinho Tinto</p>
-          <p>Vinho Branco</p>
-          <p>Vinho Seco</p>
+          <p onClick={() => navigate("/Vinho_Tinto")}>Vinho Tinto</p>
+          <p onClick={() => navigate("/Vinho_Branco")}>Vinho Branco</p>
+          <p onClick={() => navigate("/Vinho_Seco")}>Vinho Seco</p>
         </div>
       </div>
     </header>
