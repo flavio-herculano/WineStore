@@ -29,7 +29,11 @@ function Register() {
           </label>
           <label>
             Senha
-            <input type="text" />
+            <input type="password" />
+          </label>
+          <label>
+            Confirmar Senha
+            <input type="password" />
           </label>
 
           <button type="submit" className="button buttonPrimary">
