@@ -25,7 +25,7 @@ function Login() {
           <button className="button buttonPrimary" type="submit">
             Entrar
           </button>
-          <p>Esqueci minha senha</p>
+          <p onClick={() => alert("Sinto muito!")}>Esqueci minha senha</p>
         </form>
         <p>Não possuí acesso?</p>
         <button
