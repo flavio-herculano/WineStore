@@ -12,7 +12,7 @@ function Header() {
 
           <div className={styles.div_search_box}>
             <input placeholder="o que você procura?" type="text" />
-            <p onClick={() => navigate("Login")}>Entrar</p>
+            <p onClick={() => navigate("Entrar")}>Entrar</p>
           </div>
         </main>
       </div>
