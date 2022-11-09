@@ -1,0 +1,49 @@
+.main {
+  padding: 16px 120px 16px 120px;
+}
+.main section {
+  border-radius: 32px;
+  padding: 32px 64px 64px 64px;
+  background-color: #ebebeb;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 24px;
+  column-gap: 32px;
+}
+.gridList {
+  margin-top: 8px;
+  padding: 16px;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 8px;
+
+  background-color: white;
+}
+.img {
+  border-radius: 8px;
+  background: darkgrey;
+  height: 300px;
+}
+
+.sectionTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+}
+.divProductInfo {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  display: flex;
+}
+.divProductInfo p {
+  font-size: 16px;
+  color: #45a04f;
+}
+.divProductInfo h1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
