@@ -40,7 +40,7 @@
   border: transparent solid 1px;
 }
 @media(max-width: 425px) {
-    button {
-        background-color: blue;
+    buttonPrimary {
+        background: blue;
     }
 }
