@@ -3,3 +3,42 @@
   margin: 0px;
   padding: 0px;
 }
+.logo {
+  text-align: center;
+  font-family: "Pattaya";
+  font-size: 40px;
+  color: #d10058;
+  cursor: pointer;
+}
+.button {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background: #d10058;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+.buttonPrimary:hover {
+  background-color: #ff006b;
+}
+.buttonSecondary {
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  color: #888;
+}
+.buttonSecondary:hover {
+  background-color: #888;
+  color: white;
+  border: transparent solid 1px;
+}
