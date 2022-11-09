@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./header.module.css";
+import styles from "components/Header/header.module.css";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
@@ -8,11 +8,13 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.primary_header}>
         <main>
-          <div className={styles.logo}>WineStore</div>
+          <div onClick={() => navigate("/")} className={styles.logo}>
+            WineStore
+          </div>
 
           <div className={styles.div_search_box}>
             <input placeholder="o que você procura?" type="text" />
-            <p onClick={() => navigate("Entrar")}>Entrar</p>
+            <p onClick={() => navigate("/Entrar")}>Entrar</p>
           </div>
         </main>
       </div>
