@@ -60,12 +60,8 @@ function Register() {
             <input type="text"  id="email" onChange = {(e) => handleInputChange(e)} />
           </label>
           <label>
-            Nome
+            Nome completo
             <input type="text" id="nome" onChange = {(e) => handleInputChange(e)}/>
-          </label>
-          <label>
-            Sobrenome
-            <input type="text"  id="sobrenome" onChange = {(e) => handleInputChange(e)}/>
           </label>
           <label>
             Senha
