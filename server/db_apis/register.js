@@ -2,7 +2,7 @@ const oracledb = require('oracledb');
 const database = require('../services/database.js');
 
 const baseQuery =
- `SELECT CD_CLIENTE "id",NOME "nome",CPF "CPF",TELEFONE "Phone", EMAIL "mail" FROM CLIENTE`;
+ `SELECT CD_CLIENTE "id",NOME "nome",CPF "CPF",TELEFONE "Phone", EMAIL "mail", pass "pass" FROM CLIENTE`;
 
 async function find(context) {
   let query = baseQuery;
@@ -27,7 +27,8 @@ const createSql =
   ) values (:cli_id,
     :nome,
     :cpf,
-    :email
+    :email,
+    :pass
   ) returning cd_cliente
   into :cd_cliente`;
 

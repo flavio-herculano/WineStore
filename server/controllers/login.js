@@ -1,4 +1,4 @@
-const products = require('../db_apis/products.js');
+const login = require('../db_apis/login.js');
 
 
 async function get(req, res, next) {
@@ -7,7 +7,7 @@ async function get(req, res, next) {
 
     context.id = parseInt(req.params.id, 10);
 
-    const rows = await products.find(context);
+    const rows = await login.find(context);
 
     if (req.params.id) {
       if (rows.length === 1) {

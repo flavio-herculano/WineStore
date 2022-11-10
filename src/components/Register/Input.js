@@ -1,4 +1,4 @@
-import styles from './Input.module.css'
+/* import styles from './Input.module.css'
 function Input({type, text, name, placeholder, handleOnChange, value}) {
     return(
         <div className={styles.form_control}>
@@ -14,6 +14,21 @@ function Input({type, text, name, placeholder, handleOnChange, value}) {
         </div>
     )
 
-}
+} */
 
-export default Input
+
+//export default Input
+
+const handleInputChange = (e) => {
+  const {id , value} = e.target;
+  if(id === "cpf"){
+      cpffinal=value;
+  }
+  if(id === "nome"){
+    nomefinal=value;
+  }
+  if(id === "email"){
+    emailfinal=value;
+  }
+}
+export default handleInputChange
