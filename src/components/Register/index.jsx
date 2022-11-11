@@ -6,6 +6,7 @@ var nomefinal = "";
 var cpffinal = "";
 var emailfinal = "";
 var passfinal="";
+var datefinal="";
 function registerCustomer ()
 {
     console.log(nomefinal);
@@ -23,7 +24,7 @@ function registerCustomer ()
     cpf: cpffinal,
     nome: nomefinal,
     email: emailfinal,
-    pass: passfinal
+    pass: passfinal,
   })
 })
 }
@@ -65,6 +66,10 @@ function Register() {
           <label>
             Nome completo
             <input type="text" id="nome" onChange = {(e) => handleInputChange(e)}/>
+          </label>
+          <label>
+            Data de nascimento
+            <input type="date" id="borndate" onChange = {(e) => handleInputChange(e)}/>
           </label>
           <label>
             Senha
