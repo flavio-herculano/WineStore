@@ -18,7 +18,7 @@ function LoginDashboard() {
             <input type="password" />
           </label>
 
-          <button className="button buttonPrimary" type="submit">
+          <button className="button buttonPrimary" type="submit" >
             Entrar
           </button>
         </form>

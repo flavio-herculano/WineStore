@@ -38,6 +38,9 @@ const handleInputChange = (e) => {
   if(id === "email"){
     emailfinal=value;
   }
+  if(id === "pass"){
+    passfinal=value;
+  }
 }
 
 function Register() {
@@ -65,7 +68,7 @@ function Register() {
           </label>
           <label>
             Senha
-            <input type="password"  id="sobrenome" onChange = {(e) => handleInputChange(e)} />
+            <input type="password"  id="pass" onChange = {(e) => handleInputChange(e)} />
           </label>
           <label>
             Confirmar Senha
