@@ -6,7 +6,6 @@ var nomefinal = "";
 var cpffinal = "";
 var emailfinal = "";
 var passfinal="";
-var datefinal="";
 function registerCustomer ()
 {
     console.log(nomefinal);
