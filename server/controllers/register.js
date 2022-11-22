@@ -29,7 +29,8 @@ function getclienteFromRec(req) {
       cli_id: parseInt().cli_id,
       nome: req.body.nome,
       cpf: req.body.cpf,
-      email: req.body.email
+      email: req.body.email,
+      pass: req.body.pass
     };
   
     return cliente;

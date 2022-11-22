@@ -15,7 +15,7 @@ router.route('/register/:id?')
   .post(register.post);
 
   router.route('/login/:id?')
-  .get(login.get);
+  .get(login.get)
   //.post(login.post); 
   
 

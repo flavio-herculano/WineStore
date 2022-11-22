@@ -9,7 +9,7 @@ async function find(context) {
   const binds = {};
 
   if (context.id) {
-    binds.cd_tipo = context.id;
+    binds.cpf = context.id;
 
     query += `\nwhere cpf = :cpf`;
   }

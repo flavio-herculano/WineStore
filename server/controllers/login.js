@@ -1,10 +1,8 @@
 const login = require('../db_apis/login.js');
 
-
 async function get(req, res, next) {
   try {
     const context = {};
-
     context.id = parseInt(req.params.id, 10);
 
     const rows = await login.find(context);
