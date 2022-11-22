@@ -26,7 +26,8 @@ function Product() {
       <Header></Header>
     
       <h1>Produto: {prods.desc}</h1>
-      <h1>{prods.price}</h1>
+      <h1>Preço: {prods.price}</h1>
+      <h1>tipo: {prods.tipo}</h1>
     </div>
   );
 }

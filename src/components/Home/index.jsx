@@ -17,7 +17,7 @@ function Home() {
     axios.get(`http://localhost:5000/api/products/`)
     .then(res =>{
       console.log(res)
-      setProds(res.data)
+      setProds( res.data)
     })
     .catch(err =>{
       console.log(err)
