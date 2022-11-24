@@ -24,6 +24,7 @@ function registerCustomer ()
     nome: nomefinal,
     email: emailfinal,
     pass: passfinal
+
   })
 })
 }
@@ -38,6 +39,8 @@ const handleInputChange = (e) => {
   if(id === "email"){
     emailfinal=value;
   }
+
+
 }
 
 function Register() {

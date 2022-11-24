@@ -1,5 +1,6 @@
 const products = require('../db_apis/products.js');
 
+
 async function get(req, res, next) {
   try {
     const productget = {};
@@ -23,6 +24,7 @@ async function get(req, res, next) {
 }
 
 module.exports.get = get;
+
 
 /* const producttypes = require('../db_apis/products.js');
 
@@ -48,3 +50,4 @@ async function get(req, res, next) {
   }
 }
 module.exports.get = get; */
+

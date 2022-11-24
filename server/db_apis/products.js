@@ -1,3 +1,4 @@
+
 const oracledb = require('oracledb');
 const database = require('../services/database.js');
 
@@ -11,6 +12,7 @@ async function find(context) {
   const binds = {};
 
   if (context.id) {
+
     binds.cd_produto = context.id;
 
     query += `\nwhere cd_produto =  :cd_produto `;
@@ -42,6 +44,7 @@ async function procura(context) {
 
   return result.rows;
 }
+
 
 module.exports.procura = procura; */
 /* async function create(emp) {

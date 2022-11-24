@@ -23,7 +23,9 @@ module.exports.find = find;
 
 const createSql =
  `insert into cliente (
+
      cd_cliente, NOME,CPF,EMAIL, pass
+
   ) values (:cli_id,
     :nome,
     :cpf,

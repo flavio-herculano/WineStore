@@ -1,10 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
 
 ReactDOM.render(
+
   <React.StrictMode>
     <App />
   </React.StrictMode>,
@@ -12,6 +13,7 @@ ReactDOM.render(
 
   
 );
+
 /* function registerCustomer (nome, cpf, email)
 {
     console.log(nome);
@@ -20,7 +22,9 @@ ReactDOM.render(
 }
 const handleInputChange = (e) => {
 console.log("text");
+
 } */
 //export default registerCustomer
+
 
 

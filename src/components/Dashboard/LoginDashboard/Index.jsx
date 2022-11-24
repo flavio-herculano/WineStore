@@ -1,8 +1,8 @@
 import styles from "components/Dashboard/LoginDashboard/login.module.css";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 function LoginDashboard() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   return (
     <main className={styles.main}>
       <div className={styles.divLogin}>
@@ -18,7 +18,7 @@ function LoginDashboard() {
             <input type="password" />
           </label>
 
-          <button className="button buttonPrimary" type="submit">
+          <button className="button buttonPrimary" type="submit" >
             Entrar
           </button>
         </form>
