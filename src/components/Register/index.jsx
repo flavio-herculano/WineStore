@@ -23,7 +23,8 @@ function registerCustomer ()
     cpf: cpffinal,
     nome: nomefinal,
     email: emailfinal,
-    pass: passfinal,
+    pass: passfinal
+
   })
 })
 }
@@ -38,9 +39,8 @@ const handleInputChange = (e) => {
   if(id === "email"){
     emailfinal=value;
   }
-  if(id === "pass"){
-    passfinal=value;
-  }
+
+
 }
 
 function Register() {
@@ -67,12 +67,8 @@ function Register() {
             <input type="text" id="nome" onChange = {(e) => handleInputChange(e)}/>
           </label>
           <label>
-            Data de nascimento
-            <input type="date" id="borndate" onChange = {(e) => handleInputChange(e)}/>
-          </label>
-          <label>
             Senha
-            <input type="password"  id="pass" onChange = {(e) => handleInputChange(e)} />
+            <input type="password"  id="sobrenome" onChange = {(e) => handleInputChange(e)} />
           </label>
           <label>
             Confirmar Senha
